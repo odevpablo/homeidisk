@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import { BsGlobe2 } from "react-icons/bs";
+import { FcOnlineSupport } from "react-icons/fc";
+import { BiSolidNews } from "react-icons/bi";
+import { PiChatLight } from "react-icons/pi";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className='title'>Ambiente ID</h1>
+        <BsGlobe2 id='globe' size={50}></BsGlobe2>
+        <div className='main'>
+        </div>
       </header>
+      <body className='App-body'>
+          <div className='menu'>
+            <div className='home'>
+              <a>Home</a>
+            </div>
+            <div className='habilidades'>
+              <a>Habilidades</a>
+            </div>
+            <div className='downloads'>
+              <a>Downloads</a>
+            </div>
+            <div className='configurações'>
+              <a>Configurações</a>
+            </div>
+          </div>
+          </body>
+          <FcOnlineSupport id='suporte' size={45}></FcOnlineSupport>
+      
     </div>
+
   );
 }
 

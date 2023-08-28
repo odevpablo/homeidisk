@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.App-header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3A166B;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .title{
+    position: absolute;
+    margin-top: 25px;
+    left: 110px;
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  .main{
+    left: 20%;
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    background-color: #AA79EE;
+    border-color: rgb(14, 104, 183);
+    align-self: center;
+    box-shadow: 0px 20px 40px #242325;
+    border-radius: 3px;
+  
   }
-}
+  
+  #id{ 
+    position: absolute;
+  }
+  
+  #globe{
+    top: 5px;
+    margin: 15px;
+    margin-left: 25px;
+    position: absolute;
+  }
+  #globe:hover{
+    top: 6px;
+  
+  }
+  
+  
+  .App-body{
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    top: 90px;
+    margin-left: 10px;
+    height: 50vh;
+    width: 150px;
+    background-color: #6326B8;
+  }
+  .menu{
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  .menu a{
+      text-decoration: none;
+      color: rgb(240, 217, 240);
+      padding: 1rem ;
+      min-width: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .5s ease-in-out;
+  
+  }
+  a:hover {
+      letter-spacing: 1px;
+      background-color: rgba(173, 176, 255, 0.958);
+  }
+  button{
+    border-radius: 5px;
+    background-color: #6326B8;
+    margin: 10px;
+  }
+  .App-body li{
+    font-style: none;
+    display: flex;
+    padding: 20px;
+  }
+  #suporte{
+    top: 80%;
+    left: 25px;
+    position: absolute;
+  }
